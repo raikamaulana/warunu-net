@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "CustomFont";
+  src: url("/css/font/DigitalDisplayRegular-ODEO.ttf") format("truetype");
+}
+
+.button-container:hover .hovered-img {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(0deg)
+    brightness(100%) contrast(100%);
+}
+
+.text-shadow {
+  text-shadow: 2px 2px 2px #000;
+}
